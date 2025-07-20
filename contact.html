@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - WanderLuxe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .form-section {
+      background-color: #f7f7f7;
+      padding: 40px 0;
+    }
+    .contact-info {
+      line-height: 1.8;
+    }
+    .social-icons a {
+      font-size: 1.2rem;
+      margin-right: 15px;
+      color: #333;
+    }
+    .social-icons a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 🌐 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm w-100">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand fw-bold" href="#">WANDERLUXE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="Destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 📬 Contact Form -->
+<section class="form-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Get in Touch</h2>
+    <div class="row g-5">
+
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name *</label>
+            <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email *</label>
+            <input type="email" class="form-control" id="email" placeholder="your@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject *</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject of your message" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message *</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-5 pt-4">
+        <h5>Contact Information</h5>
+        <p class="contact-info">
+          📍 WanderLuxe Travels<br>
+          123 Travel Lane, Adventure City, World 001<br>
+          📧 Email: <a href="mailto:hello@wanderluxe.com">hello@wanderluxe.com</a><br>
+          📞 Phone: 8596462307
+        </p>
+
+        <h6 class="mt-4 ms-2">Follow Us</h6>
+        <div class="social-icons ms-2">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 🌍 Footer -->
+<footer class="bg-dark text-white pt-5 pb-3 mt-5 w-100">
+  <div class="container-fluid px-4">
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">WanderLuxe</h5>
+        <p>WanderLuxe is your go-to blog for soulful journeys, cultural dives, and offbeat destinations. Explore the world with us, one story at a time.</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+          <li><a href="destinations.html" class="text-white text-decoration-none">Destinations</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <h5 class="fw-bold">Connect With Us</h5>
+        <div class="d-flex gap-3 ms-3 ">
+          <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <hr class="border-light" />
+    <p class="text-center mb-0">&copy; 2025 WanderLuxe. All Rights Reserved.</p>
+  </div>
+</footer>
